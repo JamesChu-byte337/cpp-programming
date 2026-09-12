@@ -1,13 +1,15 @@
-// Program to print text on the console.
-// cout -> console output.
+// c++ program to print "Hello World" 
 
 #include <iostream>
 
-using namespace std;
+int main();
 
-int main()
-{
-    cout << "Hello, World!" << endl;
-    system("pause");
-    return 0;
+int main() {
+
+    std::cout << "Hello World!";
+    std::cout << std::endl; 
+   
+    return 0; 
 }
+
+
